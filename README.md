@@ -13,8 +13,13 @@ python download.py
 python acm.py args
 ## what are args
 python acm.py -F <file_dict> <language_code> [background_image_dict]
+
 一步到位,直接输出output.mp4
+
 python acm.py -S <file_dict> <language_code>
+
 中途停止,生成原字幕+翻译字幕以供人工校对
+
 Python acm.oy -M <file_dict> <srt_dict> [backgroud_image_dict]
+
 用音视频文件与以生成好的翻译字幕文件合成目标视频
