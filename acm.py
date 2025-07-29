@@ -1,7 +1,6 @@
 import detect
 import os
 import subprocess
-import download
 import sys
 import extract
 import translate
